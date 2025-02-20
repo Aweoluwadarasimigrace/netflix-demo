@@ -129,7 +129,7 @@
 
 
 .carousel-section{
-    padding: 100px;
+    padding: 90px;
     background-color: #200E18;
 }
 #card-flex{
@@ -154,7 +154,7 @@
 }
 .box-message{
     background-color: black;
-    padding: 100px;
+    padding: 100px 100px;
 }
 .wrapper h1{
     color: white;
@@ -365,5 +365,42 @@
         background: transparent;
         border: 2px solid gray;
         margin-bottom: 10px;
+    }
+}
+footer{
+    padding: 50px 100px 100px 200px;
+    background-color: black;
+}
+.p{
+    margin-bottom: 20px;
+}
+.footer-a{
+    font-size: 16px;
+    font-weight: 400;
+    color: #B3B3B3;
+}
+.footer-a1{
+    color: #B3B3B3;
+    font-weight: 500;
+    font-size: 14px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+}
+.footer-a1 li{
+    margin-bottom: 10px;
+}
+.footer-flex{
+    display: flex;
+    gap: 10em;
+}
+.wrap a li{
+    list-style-type: none;
+}
+@media(max-width:1280px){
+    footer{
+        padding: 50px;
+    }
+    .footer-flex{
+        gap: 5em;
+        flex-wrap: wrap;
     }
 }
