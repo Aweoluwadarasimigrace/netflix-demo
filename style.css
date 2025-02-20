@@ -367,7 +367,7 @@
         margin-bottom: 10px;
     }
 }
-footer{
+.footer{
     padding: 50px 100px 100px 200px;
     background-color: black;
 }
@@ -396,7 +396,7 @@ footer{
     list-style-type: none;
 }
 @media(max-width:1280px){
-    footer{
+    .footer{
         padding: 50px;
     }
     .footer-flex{
