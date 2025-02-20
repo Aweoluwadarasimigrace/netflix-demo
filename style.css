@@ -336,3 +336,34 @@
     justify-content: center;
     
 }
+@media(max-width:745px){
+    .email2{
+        padding: 15px;
+        padding-right: 300px;
+        background: transparent;
+        border: 2px solid gray;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:552px){
+    .email2{
+        padding: 15px;
+        padding-right: 200px;
+        background: transparent;
+        border: 2px solid gray;
+        margin-bottom: 10px;
+    }
+}
+@media(max-width:410px){
+    .section-last{
+        padding: 10px;
+        background-color: black;
+    }
+    .email2{
+        padding: 15px;
+        padding-right: 100px;
+        background: transparent;
+        border: 2px solid gray;
+        margin-bottom: 10px;
+    }
+}
