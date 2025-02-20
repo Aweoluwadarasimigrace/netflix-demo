@@ -87,6 +87,7 @@
 .button-flex{
     display: flex;
     justify-content: center;
+    gap: 2em;
 }
 
 @media(max-width:707px){
@@ -100,14 +101,29 @@
         padding: 0px 0px;
     }
 
-    .button-flex{
-        justify-content: center;
-        flex-direction: column;
-        gap: 1em;
+    .email{
+        margin-bottom: 10px;
     }
     .text-wrapper{
         text-align: center;
         margin: 70px auto;
+    }
+    .text-wrapper h1{
+        color: white;
+        font-size: 32px;
+        font-weight: 700;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        margin-bottom: 7px;
+    }
+}
+
+@media(max-width:368px){
+
+    .email{
+        padding: 15px;
+        padding-right: 100px;
+        background: transparent;
+        border: 2px solid #E50914;
     }
 }
 
@@ -123,6 +139,19 @@
     flex-wrap: wrap;
 }
 
+#card{
+    position: relative;
+}
+
+#card-text{
+    position: absolute;
+    top: 150px;
+    left: -20px;
+}
+#card-text h1{
+    font-size: 100px;
+    color: white;
+}
 .box-message{
     background-color: black;
     padding: 100px;
@@ -193,14 +222,20 @@
         gap: 2em;
      }
     }
-    .accordion{
-        padding: 70px;
+
+
+
+
+    #wrapper{
         background-color: black;
+        padding: 20px 100px;
     }
 
-    #accordionFlushExample{
-        background-color: transparent;
+    #wrapper h1{
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
         color: white;
+        font-size: 24px;
+        font-weight: 500;
     }
     #flush-collapseOne{
         background-color: #3F3F3F;
@@ -209,4 +244,95 @@
    #accordion-button{
     color: white;
     background-color: #3F3F3F;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+    padding: 25px;
    }
+   #accordion-text{
+    color: white;
+    font-size: 24px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-weight: 400;
+   }
+   #flush-collapseTwo{
+    background-color: #3F3F3F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+#flush-collapseThree{
+    background-color: #3F3F3F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+#accordion-wrapper{
+    margin-bottom: 10px;
+}
+#flush-collapseFour{
+    background-color: #3F3F3F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+#flush-collapseFive{
+    background-color: #3F3F3F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+
+#flush-collapseSix{
+    background-color: #3F3F3F;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.37);
+}
+#accordion-wrap{
+    margin-bottom: 20px;
+}
+@media(max-width:960px){
+    #wrapper{
+        background-color: black;
+        padding: 20px 30px;
+    }
+    #accordion-button{
+        color: white;
+        background-color: #3F3F3F;
+        font-size: 24px;
+        font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+        font-weight: 400;
+       padding: 10px;
+       }
+}
+
+.section-last{
+    padding: 30px;
+    background-color: black;
+}
+.text-wrap p{
+    color: white;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.email2{
+    padding: 15px;
+    padding-right: 300px;
+    background: transparent;
+    border: 2px solid gray;
+}
+.email2::placeholder{
+    color: white;
+    font-size: 20px;
+}
+.text-wrap button{
+    padding: 10px 30px;
+    padding-bottom: 13px;
+    font-size: 20px;
+    font-weight: 500;
+    border-radius: 3px;
+    font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background-color: #E50914;
+    border: none;
+    color: white;
+
+}
+.button-flex2{
+    display: flex;
+    justify-content: center;
+    
+}
